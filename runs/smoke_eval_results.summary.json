@@ -1,0 +1,8 @@
+{
+  "predictions_path": "E:\\GraduationProject\\runs\\smoke_eval_predictions.jsonl",
+  "project_dir": "E:\\mathematics_in_lean",
+  "total": 1,
+  "pass_at_1": 1.0,
+  "pass_at_k": 1.0,
+  "failure_counts": {}
+}
