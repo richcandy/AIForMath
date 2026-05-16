@@ -1,0 +1,30 @@
+{
+  "input_root": "/home/weidu/ty/GraduationProject/AIForMath/MiniF2F_Highschool",
+  "split": "test",
+  "output_path": "/home/weidu/ty/GraduationProject/AIForMath/outputs/evaluation/minif2f_highschool_beam_vllm.jsonl",
+  "api_base": "http://127.0.0.1:11451/v1",
+  "model_name": "my-tactic-lora",
+  "total_theorems": 89,
+  "success_rate": 0.6742,
+  "avg_expanded_nodes": 57.02,
+  "avg_verified_tactics": 1132.19,
+  "avg_verified_llm_tactics": 1098.35,
+  "avg_verified_hammer_tactics": 33.84,
+  "avg_generation_wall_time": 97.49,
+  "avg_verification_wall_time": 29.39,
+  "avg_solution_depth": 2.3,
+  "time_budget_seconds": 900,
+  "max_expanded_nodes": 192,
+  "max_verified_tactics": 3200,
+  "beam_width": 8,
+  "max_depth": 21,
+  "num_tactics": 20,
+  "max_hammers_per_node": 2,
+  "lean_workers": 6,
+  "failure_counts": {
+    "beam_exhausted": 1,
+    "depth_exhausted": 25,
+    "time_budget_exhausted": 1,
+    "verified_budget_exhausted": 2
+  }
+}

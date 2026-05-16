@@ -1,0 +1,42 @@
+{
+  "input_path": "/home/weidu/ty/GraduationProject/AIForMath/outputs/deepseekprover_v2/readme_flow/two_gpu_full_test/test_two_gpu_full.extracted.jsonl",
+  "output_path": "/home/weidu/ty/GraduationProject/AIForMath/outputs/deepseekprover_v2/readme_flow/two_gpu_full_test/test_two_gpu_full.evaluated.jsonl",
+  "project_dir": "/home/weidu/ty/GraduationProject/AIForMath",
+  "question_field": "question",
+  "proof_field": "predictions",
+  "total": 244,
+  "pass_at_1": 0.3689,
+  "pass_at_k": 0.3689,
+  "failure_counts": {
+    "compile_error": 36,
+    "unknown_identifier": 25,
+    "unsolved_goals": 55,
+    "tactic_failure": 3,
+    "timeout": 3,
+    "type_mismatch": 1
+  },
+  "raw_output": "/home/weidu/ty/GraduationProject/AIForMath/outputs/deepseekprover_v2/readme_flow/two_gpu_full_test/test_two_gpu_full.raw.jsonl",
+  "extracted_output": "/home/weidu/ty/GraduationProject/AIForMath/outputs/deepseekprover_v2/readme_flow/two_gpu_full_test/test_two_gpu_full.extracted.jsonl",
+  "evaluated_output": "/home/weidu/ty/GraduationProject/AIForMath/outputs/deepseekprover_v2/readme_flow/two_gpu_full_test/test_two_gpu_full.evaluated.jsonl",
+  "summary_path": "/home/weidu/ty/GraduationProject/AIForMath/outputs/deepseekprover_v2/readme_flow/two_gpu_full_test/test_two_gpu_full.summary.json",
+  "split": "test",
+  "start_index": 0,
+  "model_root": "/home/weidu/ty/GraduationProject/AIForMath/Deepseek-Prover-V2",
+  "prompt_style": "deepseek_readme",
+  "prompt_mode": "auto",
+  "max_new_tokens": 8192,
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "repetition_penalty": 1.0,
+  "stream": false,
+  "extraction_status_counts": {
+    "ok": 213,
+    "no_lean_proof_found": 20,
+    "contains_sorry_or_admit": 11
+  },
+  "average_prompt_tokens": 186.37704918032787,
+  "average_output_tokens": 4487.213114754099,
+  "average_generation_seconds": 417.35271285001005,
+  "average_tokens_per_second": 14.278101394385477,
+  "average_time_to_first_token_seconds": null
+}

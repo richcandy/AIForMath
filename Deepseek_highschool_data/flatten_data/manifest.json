@@ -1,0 +1,27 @@
+{
+  "source_root": "/home/weidu/ty/GraduationProject/AIForMath/Deepseek_highschool_data",
+  "output_root": "/home/weidu/ty/GraduationProject/AIForMath/Deepseek_highschool_data/flatten_data",
+  "created_at_unix": 1776519993,
+  "format": "messages_jsonl",
+  "system_prompt": "You are a Lean 4 tactic generator. Given a goal state, output exactly ONE Lean tactic that advances or solves the goal.\nRules:\n- Output only the tactic text; no prose or code fences.\n- Single line only; no `by` blocks.\n- Never use `sorry` or `admit`.",
+  "splits": {
+    "train": {
+      "source_path": "/home/weidu/ty/GraduationProject/AIForMath/Deepseek_highschool_data/train.json",
+      "output_path": "/home/weidu/ty/GraduationProject/AIForMath/Deepseek_highschool_data/flatten_data/train.jsonl",
+      "source_theorems": 2009,
+      "step_records": 6114
+    },
+    "val": {
+      "source_path": "/home/weidu/ty/GraduationProject/AIForMath/Deepseek_highschool_data/val.json",
+      "output_path": "/home/weidu/ty/GraduationProject/AIForMath/Deepseek_highschool_data/flatten_data/val.jsonl",
+      "source_theorems": 1004,
+      "step_records": 5427
+    },
+    "test": {
+      "source_path": "/home/weidu/ty/GraduationProject/AIForMath/Deepseek_highschool_data/test.json",
+      "output_path": "/home/weidu/ty/GraduationProject/AIForMath/Deepseek_highschool_data/flatten_data/test.jsonl",
+      "source_theorems": 1007,
+      "step_records": 5637
+    }
+  }
+}

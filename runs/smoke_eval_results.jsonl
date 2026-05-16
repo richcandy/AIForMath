@@ -1,1 +1,0 @@
-{"id": "smoke-001", "pass_at_1": true, "pass_at_k": true, "candidate_results": [{"proof": "rfl", "passed": true, "status": "pass", "returncode": 0, "stdout": "", "stderr": ""}]}

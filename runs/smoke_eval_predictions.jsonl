@@ -1,1 +1,0 @@
-{"id":"smoke-001","question":"import Mathlib\n\ntheorem eval_smoke : 1 = 1 := by","answer":"rfl","prompt":"import Mathlib\n\ntheorem eval_smoke : 1 = 1 := by\n","predictions":["rfl"]}

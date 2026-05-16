@@ -1,0 +1,82 @@
+{
+  "variant": "recommended",
+  "source_root": "/home/weidu/ty/GraduationProject/AIForMath/mathlib4_1bc7728a050fc18ca2683f614c531cd7050ff063/novel_premises",
+  "output_root": "/home/weidu/ty/GraduationProject/AIForMath/Deepseek_highschool_data",
+  "created_at_unix": 1776500065,
+  "rules": {
+    "include_paths": [
+      "Mathlib/Data/Nat",
+      "Mathlib/Data/Int",
+      "Mathlib/Data/Rat",
+      "Mathlib/Data/Real",
+      "Mathlib/Data/Complex",
+      "Mathlib/Algebra/Polynomial",
+      "Mathlib/RingTheory/Polynomial",
+      "Mathlib/Algebra/Ring",
+      "Mathlib/Algebra/Field",
+      "Mathlib/Algebra/Order/Ring",
+      "Mathlib/Algebra/Order/Field",
+      "Mathlib/RingTheory/Binomial"
+    ],
+    "exclude_paths": [
+      "Mathlib/CategoryTheory",
+      "Mathlib/Topology",
+      "Mathlib/Analysis",
+      "Mathlib/Geometry",
+      "Mathlib/MeasureTheory",
+      "Mathlib/AlgebraicGeometry",
+      "Mathlib/Probability",
+      "Mathlib/LinearAlgebra",
+      "Mathlib/Algebra/Homology",
+      "Mathlib/Algebra/Lie",
+      "Mathlib/Algebra/MvPolynomial",
+      "Mathlib/RingTheory/MvPolynomial",
+      "Mathlib/RingTheory/PowerSeries",
+      "Mathlib/RingTheory/MvPowerSeries",
+      "Mathlib/RingTheory/WittVector",
+      "Mathlib/RingTheory/HahnSeries",
+      "Mathlib/RingTheory/LaurentSeries",
+      "Mathlib/Algebra/Module"
+    ],
+    "text_patterns": [],
+    "allowed_tactics": [
+      "field_simp",
+      "linarith",
+      "nlinarith",
+      "norm_num",
+      "positivity",
+      "ring",
+      "ring1",
+      "ring_nf",
+      "rw",
+      "simp",
+      "simp_rw"
+    ],
+    "require_path_match": true,
+    "require_nonempty_theorem_statement": true,
+    "require_nonempty_traced_tactics": true
+  },
+  "splits": {
+    "train": {
+      "source_path": "/home/weidu/ty/GraduationProject/AIForMath/mathlib4_1bc7728a050fc18ca2683f614c531cd7050ff063/novel_premises/train.json",
+      "output_path": "/home/weidu/ty/GraduationProject/AIForMath/Deepseek_highschool_data/train.json",
+      "source_theorems": 104685,
+      "theorems": 2009,
+      "tactics": 6114
+    },
+    "val": {
+      "source_path": "/home/weidu/ty/GraduationProject/AIForMath/mathlib4_1bc7728a050fc18ca2683f614c531cd7050ff063/novel_premises/val.json",
+      "output_path": "/home/weidu/ty/GraduationProject/AIForMath/Deepseek_highschool_data/val.json",
+      "source_theorems": 34909,
+      "theorems": 1004,
+      "tactics": 5427
+    },
+    "test": {
+      "source_path": "/home/weidu/ty/GraduationProject/AIForMath/mathlib4_1bc7728a050fc18ca2683f614c531cd7050ff063/novel_premises/test.json",
+      "output_path": "/home/weidu/ty/GraduationProject/AIForMath/Deepseek_highschool_data/test.json",
+      "source_theorems": 34910,
+      "theorems": 1007,
+      "tactics": 5637
+    }
+  }
+}

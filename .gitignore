@@ -1,6 +1,7 @@
 # Python-generated files
 __pycache__/
 *.py[oc]
+.pytest_cache/
 build/
 dist/
 wheels/
@@ -10,5 +11,44 @@ wheels/
 .venv
 /.lake
 
+# Secrets and local editor state
+.env
+*.env
+.vscode/
+
+# Local model weights and model snapshots
+Deepseek-Prover-V2/
 Qwen2.5-Math*/
 NuminaMath-LEAN/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Training outputs, evaluation artifacts, and logs
+outputs/
+formal_results_storage/*
+!formal_results_storage/
+!formal_results_storage/*.summary.json
+runs/
+*.log
+*.pid
+
+# Local packages, installers, and downloaded corpora
+*.whl
+*.deb
+*.tar.gz
+mathlib4_*/
+
+# External or legacy local datasets not used by the final highschool pipeline
+MiniF2F/
+lean4dataQA/
+training_data/
+vllm/
+
+# Local scratch files
+EvalProof_*.lean
+p
+draft.tex
+leandojoreadme.md
+AGENTS.md
